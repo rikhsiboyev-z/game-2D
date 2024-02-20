@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="399.0" prefWidth="711.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.game2d.HelloController">
+   <children>
+      <ImageView fx:id="bg1" fitHeight="400.0" fitWidth="717.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/photo_2024-02-19_19-04-37.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bg2" fitHeight="400.0" fitWidth="717.0" layoutX="711.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/photo_2024-02-19_19-04-37.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="player" fitHeight="134.0" fitWidth="89.0" layoutX="45.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/1689585042.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="anemy" fitHeight="46.0" fitWidth="49.0" layoutX="433.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/pngwing.com%20(1).png" />
+         </image>
+      </ImageView>
+      <Label fx:id="pause" layoutX="248.0" layoutY="125.0" prefHeight="119.0" prefWidth="216.0" text="PAUSE" visible="false">
+         <font>
+            <Font name="Serif Regular" size="64.0" />
+         </font>
+      </Label>
+      <Label fx:id="lose" layoutX="175.0" layoutY="124.0" prefHeight="119.0" prefWidth="406.0" text="GAME OVER" textAlignment="CENTER" visible="false">
+         <font>
+            <Font name="Serif Regular" size="64.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="anemyTwo" fitHeight="46.0" fitWidth="80.0" layoutX="841.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/pngwing.com.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="buttonStart" layoutX="346.0" layoutY="230.0" mnemonicParsing="false" text="START" textAlignment="CENTER" textFill="#28bc20" visible="false" />
+      <Label fx:id="count" layoutX="31.0" layoutY="25.0" prefHeight="25.0" prefWidth="128.0" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
